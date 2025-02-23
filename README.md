@@ -15,7 +15,7 @@ install python virtual env and tag it
 
 ## instalation
 
-```pip install -r requirements.txt``
+```pip install -r requirements.txt```
 
 ```export OPENAI_API_KEY=<your openai key>```
 
