@@ -9,7 +9,7 @@ install pyenv
 
 install python virtual env and tag it
 
-```pyenv install 3.9.17 axel```
+```pyenv install 3.10.0 axel```
 
 ```pyenv activate axel```
 
@@ -21,4 +21,4 @@ install python virtual env and tag it
 
 ## Run
 
-```streamlit run chat.py```
+```streamlit run app.py```
