@@ -1,5 +1,5 @@
 streamlit==1.30.0
-openai==2.0.0
+openai==1.65.2
 faiss-cpu==1.7.4
 sentence-transformers==2.2.2
 pillow==10.2.0
