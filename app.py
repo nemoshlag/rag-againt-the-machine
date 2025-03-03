@@ -3,7 +3,6 @@ import os
 import streamlit as st
 from openai import OpenAI
 
-client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 import base64
 import tempfile
 
@@ -18,6 +17,7 @@ from config.states import set_initial_state
 #  Set the initial state
 set_initial_state()
 sidebar()
+client = OpenAI(api_key=st.session_state.open_api_key)
 
 # Load Sentence Transformer Model
 model = SentenceTransformer("all-MiniLM-L6-v2")
