@@ -1,13 +1,11 @@
-import os
-
-import streamlit as st
-from openai import OpenAI
-
 import base64
+import os
 import tempfile
 
 import faiss
 import pytesseract
+import streamlit as st
+from openai import OpenAI
 from PIL import Image
 from sentence_transformers import SentenceTransformer
 
