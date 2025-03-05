@@ -6,4 +6,4 @@ lint:
 Usage: run
 Description: Run the program
 run:
-	streamlit run app.py
+	streamlit run streamlit_app.py
